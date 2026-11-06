@@ -1,0 +1,41 @@
+{
+  "name": "payroll",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma-init": "npx prisma init",
+    "prisma-generate": "npx prisma generate",
+    "prisma-migrate-dev": "npx prisma migrate dev --name",
+    "prisma-migrate-prod": "npx prisma migrate deploy"
+  },
+  "dependencies": {
+    "@prisma/client": "6.1.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "antd": "^5.22.5",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "lodash": "^4.17.21",
+    "next": "15.1.1",
+    "pg": "^8.13.1",
+    "prisma": "6.1.0",
+    "qs": "^6.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^20",
+    "@types/qs": "^6.9.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

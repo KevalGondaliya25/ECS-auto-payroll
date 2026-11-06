@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #084e7c;
+  --foreground: #ededed;
+  --text-color: #101828;
+  --disable-bg: #0000000a;
+  --table-header: #e1e1e134;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+.font-wight-600 {
+  font-weight: 600;
+}
+
+.table-height {
+  max-height: calc(100vh - 260px);
+}
+
+.pagination .ant-pagination-item-link span svg {
+  fill: white !important;
+}
+
+.pagination .ant-pagination-item a:hover {
+  color: white !important;
+}
+
+.pagination .ant-pagination-item-ellipsis {
+  color: white !important;
+}
+
+.ant-table-thead tr .ant-table-cell {
+  background-color: var(--table-header) !important;
+}
+
+.ant-table {
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  overflow: hidden;
+}
